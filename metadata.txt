@@ -1,0 +1,10 @@
+FOREST DISTURBANCE DATASET FOR GUATEMALA
+
+AUTHORS: Eric Bullock, Ana Reboredo Segovia, Christoph Nolte
+START DATE: 1999-01-01
+END DATE: 2017-12-31
+SPATIAL RESOLUTION: 30m
+DATASOURCE: LANDSAT
+ALGORITHM: Continuous Degradation Detection (CODED), see: github.com/bullocke/coded
+
+More information to come...
