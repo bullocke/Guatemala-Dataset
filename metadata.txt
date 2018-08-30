@@ -1,10 +1,56 @@
-FOREST DISTURBANCE DATASET FOR GUATEMALA
+** FOREST DISTURBANCE DATASET FOR GUATEMALA
 
 AUTHORS: Eric Bullock, Ana Reboredo Segovia, Christoph Nolte
+CONTACT: bullocke@bu.edu
 START DATE: 1999-01-01
 END DATE: 2017-12-31
 SPATIAL RESOLUTION: 30m
-DATASOURCE: LANDSAT
+DATASOURCE: Landsat 4, 5, 7, and 8
 ALGORITHM: Continuous Degradation Detection (CODED), see: github.com/bullocke/coded
+FORMAT: GeoTIFF
+DIMENSIONS: 14968, 15127
 
-More information to come...
+
+** BAND INFORMATION AND PIXEL VALUES
+
+BAND 1: Map Strata
+    1. Stable forest
+    2. Not stable forest
+    7. Degradation
+    8. Deforestation
+BAND 2: First deforestation date
+    1999-2017: Disturbance date
+BAND 3: First degradation date
+    1999-2017: Disturbance date
+
+
+**VALIDATION AND ESTIMATION
+
+SAMPLING PROCEDURE: Stratified Random Samples
+SAMPLING AND ANALYSIS TOOLS: github.com/bullocke/gee-assessment-toolbox
+REFERENCE DATA: Google Earth imagery and Landsat historical data
+STRATA AND SAMPLES
+    1. Forest 400
+    2. Non Forest 300
+    3. Degradation 150
+    4. Deforestation 150
+    5. Buffer 100
+
+AREA ESTIMATES AND STANDARD ERRORS (HECTARES)
+    1. Forest 4860711.641 (104561.4505)
+    2. Non Forest 4702034.137 (90917.05746)
+    3. Deforestation 859800.9247 (39926.73148)
+    4. Degradation 958812.9767 (68792.98674)
+
+ACCURACIES
+    Overall Accuracy: 87.6&
+    Producers:
+        Forest: 95.8%
+        Non-Forest: 86.7%
+        Deforestation: 85.6%
+        Degradation: 52.9%
+    Users:
+        Forest: 82.3%
+        Non-Forest: 95.6%
+        Deforestation: 85.7%
+        Degradation: 83.9%
