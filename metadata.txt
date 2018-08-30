@@ -1,6 +1,7 @@
 ** FOREST DISTURBANCE DATASET FOR GUATEMALA
 
 AUTHORS: Eric Bullock, Ana Reboredo Segovia, Christoph Nolte
+COLLABORATING INSTITUTIONS: Inter-American Development Bank (IDB) and Boston University
 CONTACT: bullocke@bu.edu
 START DATE: 1999-01-01
 END DATE: 2017-12-31
