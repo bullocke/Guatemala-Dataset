@@ -1,7 +1,7 @@
 ** FOREST DISTURBANCE DATASET FOR GUATEMALA
 
-AUTHORS: Eric Bullock, Ana Reboredo Segovia, Christoph Nolte
-COLLABORATING INSTITUTIONS: Inter-American Development Bank (IDB) and Boston University
+AUTHORS: Eric Bullock, Ana Reboredo Segovia, and Christoph Nolte
+COLLABORATING INSTITUTIONS: Inter-American Development Bank (IDB),  Boston University, Registro de Información Catastral, and Consejo Nacional de Areas Protegidas (CONAP)
 CONTACT: bullocke@bu.edu
 START DATE: 1999-01-01
 END DATE: 2017-12-31
@@ -10,7 +10,15 @@ DATASOURCE: Landsat 4, 5, 7, and 8
 ALGORITHM: Continuous Degradation Detection (CODED), see: github.com/bullocke/coded
 FORMAT: GeoTIFF
 DIMENSIONS: 14968, 15127
+COMPRESSION: LZW
+INTERLEAVE: Band
+PROJECTION: EPSG:4326 WGS 84
 
+** DATASET DESCRIPTION AND BACKGROUND
+
+From 2012 to 2017 the Republic of Guatemala, in collaboration with the Inter-American Development Bank (IDB), instituted a program for the clarification, mapping, and demarcation of land rights for the country's protected areas. This dataset was developed as part of an evaluation as to the effectiveness of the program in preventing deforestation and degradation in the protected areas.  
+
+The CODED algorithm has three main components: forest/non-forest classification, change detection, and disturbance attribution. Disturbances that occur in forested landscapes and result in a change in land cover are labeled as deforestation. If the disturbance does not result in a change in land cover it is labeled as degradation. While the CODED algorithm records all changes over the study period, only the first degradation event and first deforestation event is represented in this dataset.  
 
 ** BAND INFORMATION AND PIXEL VALUES
 
@@ -44,7 +52,7 @@ AREA ESTIMATES AND STANDARD ERRORS (HECTARES)
     4. Degradation 958812.9767 (68792.98674)
 
 ACCURACIES
-    Overall Accuracy: 87.6&
+    Overall Accuracy: 87.6%
     Producers:
         Forest: 95.8%
         Non-Forest: 86.7%
