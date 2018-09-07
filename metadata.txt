@@ -33,7 +33,7 @@ BAND 3: First degradation date
     1999-2017: Disturbance date
 
 
-**VALIDATION AND ESTIMATION
+** VALIDATION AND ESTIMATION
 
 SAMPLING PROCEDURE: Stratified Random Samples
 SAMPLING AND ANALYSIS TOOLS: github.com/bullocke/gee-assessment-toolbox
